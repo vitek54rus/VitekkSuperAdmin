@@ -1,0 +1,1 @@
+{"mydb": {"host": "localhost", "port": 5432, "database": "mydb", "user": "postgres", "password": "123456"}, "product_db": {"host": "localhost", "port": 5432, "database": "product_db", "user": "postgres", "password": "123456"}, "users_db": {"host": "localhost", "port": 5432, "database": "users_db", "user": "postgres", "password": "123456"}}

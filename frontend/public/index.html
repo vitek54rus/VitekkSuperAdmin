@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VITEKK SUPER ADMIN - Ultimate Database Control System</title>
+    <meta name="description" content="VITEKK SUPER ADMIN - Professional Database Management System" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        @keyframes slide {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        .glitch {
+            position: relative;
+        }
+        .glitch::before {
+            content: 'VITEKK SUPER ADMIN';
+            position: absolute;
+            top: 0;
+            left: -2px;
+            width: 100%;
+            height: 100%;
+            color: #e74c3c;
+            overflow: hidden;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
